@@ -1,0 +1,19 @@
+{"input":
+  {
+    "source": "primary_source",
+    "source_type": "csv",
+    "filename": "data_resource.csv",
+    "column_name": "count"
+  },
+  "model":
+  {"name": "model_name",
+    "version": "0.0.1",
+    "parameters":
+    [
+      ["(1, 0, 1)", "(1, 1, 1, 7)"],
+      ["(1, 0, 1)", "(1, 1, 1, 7)"],
+      ["(1, 0, 0)", "(1, 1, 1, 7)"],
+      ["(1, 0, 1)", "(0, 1, 1, 7)"]
+    ]
+  }
+}
